@@ -1,0 +1,19 @@
+
+.tooltip {
+    display: inline;
+    position: relative;
+}
+.tooltip:hover:before{
+    position: absolute;
+    border: solid;
+    border-color: transparent;
+    content: "";
+    z-index: 99;
+}
+.tooltip:hover:after{
+            color: #fff;
+            content: attr(title); 
+            position: absolute;
+            z-index: 98;
+            width: 150px;
+}

@@ -1,0 +1,72 @@
+
+.nav-item:hover{
+	text-decoration-line: underline;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(64, 64, 64);
+}
+i{
+	size: 100px;
+}
+.btco-menu li > a {
+    padding: 10px 15px;
+    color: #000;
+
+}
+
+.btco-menu .active a:focus,
+.btco-menu li a:focus ,
+.navbar > .show > a:focus{
+    background: transparent;
+    outline: 0;
+}
+.dropdown-menu .show > .dropdown-toggle::after{
+    transform: rotate(-90deg);
+}
+
+.carousel-inner img{
+		width: 100%;
+		height: 100%;
+}
+.jumbotron{
+	margin: 8%;
+	margin-top: 5%;
+	padding:2% 5% 2% 5%;
+}
+.Sitemap-Group{
+	width: 25%;
+	height: 100%;
+	max-width: 25%;
+	background-color: #D0D0D0;
+	color: white;
+	margin: 4%;
+	display: inline-block;
+}
+.Sitemap-Header{
+	text-align: center;
+	background-color: #008080;
+}
+.Sitemap-Header a{
+	color: white;
+}
+.Sitemap-GroupInner{
+	padding: 5%;
+}
+.Sitemap-GroupInner .SiteMap-Item a{
+	color: black;
+}
+.carousel-caption{
+	width: 550px;
+	left: 15%;
+	top: 50% !important;
+	transform: translateY(-50%);
+	text-align: left;
+	bottom: initial;
+}
+.footer{
+	
+	width: 100%;
+	text-align: center;
+	color: black;
+	background-color: #f8f9fa;
+}
